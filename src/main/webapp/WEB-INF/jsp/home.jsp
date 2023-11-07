@@ -4,11 +4,11 @@
 
 <html>
 <head>
-
+ <link type="text/css" href="<spring:url value='/css/home.css'/>" rel="Stylesheet">
 </head>
 <body>
-<div>
- Welcome
+<div class="welcomeDiv">
+ <p class="welcome">Welcome !</p>
 </div>
 
 </body>

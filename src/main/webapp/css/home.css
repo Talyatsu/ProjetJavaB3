@@ -1,0 +1,11 @@
+.welcomeDiv {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    width: 150px;
+}
+.welcome {
+    align-content: center;
+    font-size: 30px;
+    color: slateblue;
+}

@@ -10,10 +10,15 @@
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
 <html>
 <head>
+    <link type="text/css" href="<spring:url value='/css/first.css'/>" rel="Stylesheet">
 </head>
 <body>
-<div>
-
+<div class="header">
+    <img src='<spring:url value="images/logo.jpg"/>'/>
+    <p class="title">ArcDeRêve.com</p>
+    <button class="homeButton" name="Home">Home</button>
+    <button class="profileButton" name="Profile">Profile</button>
+    <button class="categoryButton" name="Category">Category</button>
 </div>
 <div>
     <tiles:insertAttribute name="main-content"/>
